@@ -15,8 +15,6 @@ test('myth-request', function(t) {
     handler(req, res)
   })
 
-  // server.listen(process.env.PORT || 1337)
-
   st(server, '/', { encoding: 'utf8' }, function(err, res) {
     t.ifError(err, 'no error')
     t.ok(res, 'server res')
