@@ -1,6 +1,6 @@
 {
   "name": "myth-request",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Wraps a myth instance into an HTTP request handler",
   "main": "index.js",
   "scripts": {
