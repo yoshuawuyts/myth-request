@@ -1,0 +1,36 @@
+{
+  "name": "myth-request",
+  "version": "1.0.0",
+  "description": "Wraps a myth instance into an HTTP request handler",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test tape test.js | tap-bail | tap-spec",
+    "test-cov": "NODE_ENV=test istanbul cover test.js",
+    "lint": "eslint ."
+  },
+  "repository": "yoshuawuyts/myth-request",
+  "keywords": [
+    "myth",
+    "http",
+    "response",
+    "buffer",
+    "cache"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^0.10.2",
+    "istanbul": "^0.3.5",
+    "myth": "^1.2.1",
+    "rework": "^1.0.1",
+    "servertest": "^1.1.1",
+    "tap-bail": "0.0.0",
+    "tap-spec": "^2.1.2",
+    "tape": "^3.0.3"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}
