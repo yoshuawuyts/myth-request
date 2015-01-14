@@ -42,6 +42,7 @@ running myth. No `gulp`, `grunt` or `make` needed.
 
 ## See Also
 - [watchify-request](https://github.com/hughsk/watchify-request)
+- [koa-myth](https://github.com/yoshuawuyts/koa-myth)
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
